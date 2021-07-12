@@ -41,6 +41,12 @@ public:
     int trailingZeroes(int N)
     {
        // Write Your Code here
+      for(int i=5;n/i>=1;i*=5)
+      {
+        count=count+(n/i);
+      }
+      return (count);
+      
     }
 };
 
